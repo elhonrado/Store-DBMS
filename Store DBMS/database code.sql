@@ -1,9 +1,0 @@
-CREATE DATABASE store_db;
-USE store_db;
-
-CREATE TABLE customers (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(100) NOT NULL,
-  email VARCHAR(100) NOT NULL,
-  phone VARCHAR(20) NOT NULL
-);
